@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0">
+	<Project ProjectGUID="{59CAE718-4180-4178-BD52-3D22EAF16D3D}" ModifiedGUID="{59D2F9F0-F92D-4A65-A001-DC3D43B8D0F7}" Target64Bit="true">
+		<Motion>
+			<NC File="NC.xti"/>
+		</Motion>
+		<Io>
+			<Device File="Device 1 (EtherCAT Automation Protocol).xti" Id="1"/>
+		</Io>
+	</Project>
+</TcSmProject>

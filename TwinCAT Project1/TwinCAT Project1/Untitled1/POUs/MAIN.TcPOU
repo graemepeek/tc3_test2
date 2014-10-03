@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.0.25">
+  <POU Name="MAIN" Id="{f4a86d2e-24eb-4ef3-a404-d704db804e38}">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	// my comment
+	a: BOOL := true;
+	b: BOOL;
+	c:bool;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[a:=b;
+c:=a;]]></ST>
+    </Implementation>
+    <ObjectProperties />
+  </POU>
+</TcPlcObject>
